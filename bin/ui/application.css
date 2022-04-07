@@ -1,0 +1,170 @@
+/*
+ * icesiBlue = #3761a6
+ * icesiGreen = #62ae54
+ * icesiGreenD = #468439
+ * lightGrey = #f9faff
+ * darkGrey = #f3f1f3
+ */
+ 
+BorderPane {
+	-fx-background-color: #FFFFFF;	
+}
+
+Button {
+	-fx-background-color: #3761a6;
+	-fx-border-width: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: lato;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+	-fx-font-size: 15; 
+}
+
+Button:pressed {
+	-fx-background-color: #264b7f;
+	-fx-border-width: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: lato;
+}
+
+#secondaryButton {
+	-fx-background-color: #62ae54;
+	-fx-border-width: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: lato;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+	-fx-font-size: 15; 
+}
+
+#secondaryButton:pressed {
+	-fx-background-color: #468439;
+	-fx-border-width: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: lato;
+}
+
+#tertiaryButton {
+	-fx-background-color: #FFFFFF;
+	-fx-border-width: 1.2;
+	-fx-border-radius: 6 6 6 6;
+	-fx-border-color: #3761a6;
+	-fx-text-fill: #3761a6;
+	-fx-font-family: lato;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+	-fx-font-size: 15; 
+}
+
+#tertiaryButton:pressed {
+	-fx-border-width: 1.2;
+	-fx-background-color: #3761a6;
+	-fx-border-width: 0;
+	-fx-border-radius: 6 6 6 6;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: lato;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+	-fx-font-size: 15; 
+}
+
+TextField {
+	-fx-text-box-border: transparent;
+    -fx-background-color: #f9faff;
+    -fx-border-color: #f3f1f3;
+    -fx-border-width: 1;
+    -fx-border-radius: 6 6 6 6;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+}
+
+ComboBox {
+	-fx-text-box-border: transparent;
+    -fx-background-color: #f9faff;
+    -fx-border-color: #f3f1f3;
+    -fx-border-width: 1;
+    -fx-border-radius: 6 6 6 6;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+}
+
+DatePicker {
+	-fx-text-box-border: transparent;
+	-fx-text-fill: #3761a6;
+    -fx-background-color: #f9faff;
+    -fx-border-color: #f3f1f3;
+    -fx-border-width: 1;
+    -fx-border-radius: 6 6 6 6;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+}
+
+.table-view .column-header {
+    -fx-background-color: #3761a6;
+    -fx-border-color: #3761a6;
+    -fx-border-width: 5;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #c4dbff;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd{
+	-fx-text-fill: #000000;
+    -fx-background-color: f9faff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even{
+	-fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #f3f1f3;
+    -fx-text-fill: #3761a6;
+}
+
+.table-view .column-header-background .label{
+    -fx-text-fill: white;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+PasswordField {
+	-fx-text-box-border: transparent;
+    -fx-background-color: #f9faff;
+    -fx-border-color: #f3f1f3;
+    -fx-border-width: 1;
+    -fx-border-radius: 6 6 6 6;
+	-fx-background-radius: 6 6 6 6;
+	-fx-pref-height: 38;
+}
+
+TextField:hover {
+    -fx-border-color: #3761a6;
+}
+
+PasswordField:hover {
+    -fx-border-color: #3761a6;
+}
+
+#seat {
+	-fx-pref-height: 36;
+	-fx-pref-width: 51;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;	
+}
